@@ -1,5 +1,12 @@
 Flappy Bird Bot using Reinforcement Learning in Python
 ===================
+
+Note from fork:
+* If you want to run the FlappyBird Agent, just go into flappybird-qlearning-bot and type python flappy.py
+
+* If you want to train the Agent, move/delete the qvalues.json file, then type python initialize_values.py
+and finally, python flappy.py
+
 ![4000+ scored](http://i.imgur.com/00Mf320.png)
 
 A Flappy Bird bot in Python, that learns from each game played via Q-Learning.
